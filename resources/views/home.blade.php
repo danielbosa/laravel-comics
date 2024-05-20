@@ -6,8 +6,8 @@
 <section class="container">
     <h1>I nostri prodotti</h1>
     <ul>
-    @foreach ( $comics as $product)
-        <li>{{$product['title']}}</li>
+    @foreach ( $comics as $comic)
+        <li>{{$comic['title']}}</li>
 
     @endforeach
     </ul>

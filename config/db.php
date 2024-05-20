@@ -109,6 +109,49 @@ return [
             "series" => "Catwoman",
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
-        ]
-    ]
+        ],
+    ],
+    'headerOptions' => [
+        [
+            "name" => 'characters',
+            "link" => '#',
+        ],
+        [
+            "name" => 'comics',
+            "link" => '#',
+        ],
+        [
+            "name" => 'movies',
+            "link" => '#',
+        ],
+        [
+            "name" => 'tv',
+            "link" => '#',
+        ],
+        [
+            "name" => 'games',
+            "link" => '#',
+        ],
+        [
+            "name" => 'collectibles',
+            "link" => '#',
+        ],
+        [
+            "name" => 'videos',
+            "link" => '#',
+        ],
+        [
+            "name" => 'fans',
+            "link" => '#',
+        ],
+        [
+            "name" => 'news',
+            "link" => '#',
+        ],
+        [
+            "name" => 'shop',
+            "link" => '#',
+        ],
+]
+
 ];
