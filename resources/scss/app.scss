@@ -77,6 +77,25 @@ header{
             }
         }
     }
+
+    .db-input{
+        color: $darkest;
+        input{
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: $accenture;
+            text-align: end;
+        }
+        ::placeholder{
+            font-weight: bold;
+            color: $darkest;
+            font-size: 0.9rem;
+        }
+      }
+    //   input:focus {
+    //     border-color: green;
+    //     outline: 1px dotted #000
+    //   }
 }
 
 .db-jumbo{
@@ -85,5 +104,81 @@ header{
     img{
         width: 100%;
         background-repeat: no-repeat;
+    }
+}
+
+
+.db-footer-one{
+    background-image: url(../img/footer-bg.jpg);
+
+    .db-container{
+        @include db-container;
+        padding: 30px 0 40px 0;
+        background-image: url(../img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 50%;
+    }
+
+    .db-footer-links{
+        display: flex;
+        gap: 30px;
+    }
+
+    ul{
+        margin: 10px 0 15px 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    h5{
+        color: $light;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    li{
+        a{
+            font-size: 12px;
+            text-decoration: none;
+            color: $secondary;
+        }
+    }
+}
+
+.db-footer-two{
+    background-color: $darkless;
+    font-size: 12px;
+
+    .db-container{
+        @include db-container;
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .db-cta{
+        text-transform: uppercase;
+        font-weight: bold;
+        border: 3px solid $accenture;
+        padding: 10px;
+        text-decoration: none;
+        color: $light;
+    }
+
+    .db-footer-icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $accenture;
+        a{
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 100%;
+        }
     }
 }

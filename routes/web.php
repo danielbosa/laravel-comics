@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('db.comics');
     $headerOptions = config('db.headerOptions');
-    return view('home', compact('comics'), compact('headerOptions'));
+    $footerMenu = config('db.footerMenu');
+    return view('home', compact('comics','headerOptions','footerMenu'));
 })->name('home');
 
 

@@ -11,6 +11,10 @@
                     </li>
                 @endforeach
             </ul>
+            <div class="db-input">
+                <input type="search" id="search" name="search" placeholder="Search">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
         </div>
     </div>
 </header>
