@@ -16,7 +16,7 @@
                     <div class="col-4 col-md-3 col-lg-2 h-100">
                         <div class="card">
                             <div class="db-card-img-container">
-                                <img class="db-card-img" :src="{{$comic['thumb']}}" alt="">
+                                <img class="db-card-img" src="{{$comic['thumb']}}" alt="">
                             </div>
                             <div class="db-card-title text-uppercase">{{$comic['title']}}</div>
                         </div> 
